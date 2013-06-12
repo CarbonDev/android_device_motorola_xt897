@@ -35,7 +35,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGsmDevice=1 \
     ro.telephony.ril.v3=signalstrength \
-    ro.telephony.default_network=3
+    ro.telephony.default_network=3 \
+    persist.sys.report_gprs_as_edge=1
 
 # IDC
 PRODUCT_COPY_FILES += \
