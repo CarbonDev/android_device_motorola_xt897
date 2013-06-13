@@ -14,7 +14,7 @@ BOARD_HAVE_NFC := true
 
 # Inline kernel building
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
-TARGET_KERNEL_CONFIG := msm8960_mmi_gsm_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8960_mmi_gsm_defconfig
 
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
