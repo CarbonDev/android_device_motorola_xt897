@@ -1,6 +1,3 @@
-# gsm
-$(call inherit-product, vendor/carbon/config/common_gsm.mk)
-
 # common phone
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
