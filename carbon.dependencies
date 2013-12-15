@@ -1,16 +1,20 @@
 [
   {
     "remote": "gh",
-    "repository": "omnirom/android_kernel_samsung_smdk4412",
-    "target_path": "kernel/samsung/smdk4412",
-    "revision": "android-4.4"
+    "repository": "CyanogenMod/android_kernel_motorola_msm8960-common",
+    "target_path": "kernel/motorola/msm8960-common",
+    "revision": "cm-11.0"
   },
   {
-    "repository": "CarbonDev/android_device_samsung_smdk4412-common",
-    "target_path": "device/samsung/smdk4412-common"
+    "remote": "gh",
+    "repository": "CyanogenMod/android_device_motorola_msm8960-common",
+    "target_path": "device/motorola/msm8960-common",
+    "revision": "cm-11.0"
   },
   {
-    "repository": "CarbonDev/proprietary_vendor_samsung",
-    "target_path": "vendor/samsung"
+    "remote": "gh",
+    "repository": "CyanogenMod/android_device_motorola_qcom-common",
+    "target_path": "device/motorola/qcom-common",
+    "revision": "cm-11.0"
   }
 ]
